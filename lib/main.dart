@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
   List<Note> _notesForDisplay = List<Note>();
 
   Future<List<Note>> fetchNotes() async {
-    var url = 'https://jsonplaceholder.typicode.com/users';
+    var url = 'https://raw.githubusercontent.com/MoisesLO/search/master/lib/tutorial.json';
     var response = await http.get(url);
     var notes = List<Note>();
 
