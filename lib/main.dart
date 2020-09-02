@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:search/note.dart';
 import 'package:http/http.dart' as http;
 
@@ -8,7 +9,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
-        title: Text('Search Title'),
+        title: Text('Tutorial PHP'),
       ),
       body: HomePage(),
     ),
@@ -21,20 +22,15 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   List<Note> _notes = List<Note>();
   List<Note> _notesForDisplay = List<Note>();
 
   Future<List<Note>> fetchNotes() async {
-    var url = 'https://raw.githubusercontent.com/MoisesLO/search/master/lib/tutorial.json';
-    var response = await http.get(url);
+    var response = await rootBundle.loadString('assets/json/php.json');
     var notes = List<Note>();
-
-    if (response.statusCode == 200){
-      var notesJson = json.decode(response.body);
-      for (var noteJson in notesJson) {
-        notes.add(Note.fromJson(noteJson));
-      }
+    var notesJson = json.decode(response);
+    for (var noteJson in notesJson) {
+      notes.add(Note.fromJson(noteJson));
     }
     return notes;
   }
@@ -53,21 +49,18 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-        itemBuilder: (context, index){
-          return index == 0 ? _searchBar() : _listItem(index -1);
-        },
-      itemCount: _notesForDisplay.length+1,
+      itemBuilder: (context, index) {
+        return index == 0 ? _searchBar() : _listItem(index - 1);
+      },
+      itemCount: _notesForDisplay.length + 1,
     );
   }
-
 
   _searchBar() {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: TextField(
-        decoration: InputDecoration(
-            hintText: 'Search...'
-        ),
+        decoration: InputDecoration(hintText: 'Buscar Tutorial'),
         onChanged: (text) {
           text = text.toLowerCase();
           setState(() {
@@ -84,22 +77,18 @@ class _HomePageState extends State<HomePage> {
   _listItem(index) {
     return Card(
       child: Padding(
-        padding: const EdgeInsets.only(top: 32.0, bottom: 32.0, left: 16.0, right: 16.0),
+        padding: const EdgeInsets.only(
+            top: 32.0, bottom: 32.0, left: 16.0, right: 16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
               _notesForDisplay[index].name,
-              style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold
-              ),
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
             Text(
               _notesForDisplay[index].username,
-              style: TextStyle(
-                  color: Colors.grey.shade600
-              ),
+              style: TextStyle(color: Colors.grey.shade600),
             ),
           ],
         ),
@@ -107,5 +96,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-
