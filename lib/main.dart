@@ -78,14 +78,18 @@ class _HomePageState extends State<HomePage> {
     return Card(
       child: Padding(
         padding: const EdgeInsets.only(
-            top: 32.0, bottom: 32.0, left: 16.0, right: 16.0),
+            top: 10.0, bottom: 15.0, left: 16.0, right: 16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
               _notesForDisplay[index].name,
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 19,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.grey.shade700),
             ),
+            Padding(padding: EdgeInsets.only(top: 10)),
             Text(
               _notesForDisplay[index].username,
               style: TextStyle(color: Colors.grey.shade600),

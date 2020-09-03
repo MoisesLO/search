@@ -1,134 +1,202 @@
 [
   {
-    "name": "1.- Tutorial PHP moises",
-    "username": "Bret"
+    "name": "1 - ¿Qué es PHP?",
+    "username": "PHP (acrónimo de \"PHP: Hypertext Preprocessor\") es ..."
   },
   {
     "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "username": "Actualmente XAMPP es el entorno más popular de desar ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "3 - Programa \"Hola Mundo\" en PHP",
+    "username": "En este curso suponemos que conoce los elementos pri ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "4 - Un programita más útil que \"Hola Mundo\"",
+    "username": "Un problema sencillo que se nos puede presentar ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "5 - Tipos de variables",
+    "username": "Los nombres de variables comienzan con el caracter $ ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "6 - Variables de tipo string",
+    "username": "Una variable de este tipo puede almacenar una serie ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "7 - Estructura condicional (if)",
+    "username": "Una variable de este tipo puede almacenar una serie ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "8 - Estructuras repetitivas (for - while - do/while)",
+    "username": "Las estructuras repetitivas son similares al lenguaje C .."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "9 - Envío de datos de un FORMULARIO (controles text y submit)",
+    "username": "Una actividad fundamental en PHP es la recolección de datos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "10 - FORMULARIO (control radio)",
+    "username": "Una actividad fundamental en PHP es la recolección de datos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "11 - FORMULARIO (control checkbox)",
+    "username": "El control checkbox tiene dos estados: seleccionado ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "12 - FORMULARIO (control select)",
+    "username": "Veamos ahora como podemos rescatar desde PHP el elemento ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "13 - FORMULARIO (control textarea)",
+    "username": "El control HTML \"textarea\" se diferencia del \"text\" en que ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "14 - Vectores (tradicionales)",
+    "username": "Un Array es una colección de valores. Los array pueden ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "15 - Creación de un archivo de texto",
+    "username": "Una actividad fundamental es poder registrar información ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "16 - Lectura de un archivo de texto",
+    "username": "Para la lectura de un archivo de texto contamos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "17 - Vectores (asociativos)",
+    "username": "Este tipo de vectores no es común a otros lenguajes ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "18 - Funciones en PHP",
+    "username": "La sintaxis para la definición de una función en PHP es ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "19 - Base de datos (MySQL)",
+    "username": "Uno de los empleos principales de PHP es el acceso a una base de datos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "20 - INSERT (Alta de registros en una tabla)",
+    "username": "20 - INSERT (Alta de registros en una tabla) ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "21 - Listado (selección de registros de una tabla)",
+    "username": "Para recuperar datos desde MySQL o MariaDB debemos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "22 - Consulta (selección de registros de una tabla)",
+    "username": "El proceso de consulta de datos de una tabla es similar al de listado ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "23 - DELETE (Baja de un registro en una tabla)",
+    "username": "El objetivo de este punto es el borrado de un registro de una tabla ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "24 - DELETE (Baja de todos los registros de una tabla)",
+    "username": "Vimos en el concepto anterior que podemos borrar una ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "25 - UPDATE (Modificación de un registro de una tabla)",
+    "username": "De las actividades con una tabla esta es la más larga ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "26 - INSERT (y consulta de otra tabla)",
+    "username": "En un primer paso vimos como efectuar el alta en la tabla alumnos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "27 - Listado (selección de registros de varias tablas - INNER JOIN)",
+    "username": "Ahora veremos como imprimir todos los alumnos inscriptos a los cursos ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "28 - Función count de SQL",
+    "username": "Hay en MySQL funciones que nos permiten contar registros ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "29 - UPDATE (Modificación de un registro trabajando con dos tablas)",
+    "username": "Ahora complicaremos un poco la modificación de un registro ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "30 - Cláusula Group By de SQL",
+    "username": "Entre las muchas posibilidades que nos brinda SQL ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "31 - Parámetros en un hipervínculo",
+    "username": "Hasta ahora hemos visto como enviar datos de una página ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "32 - Paginación de registros",
+    "username": "En situaciones en las cuales una consulta retorna ..."
   },
   {
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Bret"
+    "name": "33 - Subir un archivo al servidor (Upload)",
+    "username": "Una actividad común en un sitio es poder almacenar ..."
+  },
+  {
+    "name": "34 - Creación y lectura de una cookie",
+    "username": "El protocolo HTTP es desconectado. Esto significa"
+  },
+  {
+    "name": "35 - Borrado de una cookie",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
+  },
+  {
+    "name": "",
+    "username": ""
   }
 ]
