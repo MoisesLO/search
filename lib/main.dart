@@ -77,26 +77,56 @@ class _HomePageState extends State<HomePage> {
   _listItem(index) {
     return Card(
       child: Padding(
-        padding: const EdgeInsets.only(
-            top: 10.0, bottom: 15.0, left: 16.0, right: 16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              _notesForDisplay[index].name,
-              style: TextStyle(
-                  fontSize: 19,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.grey.shade700),
-            ),
-            Padding(padding: EdgeInsets.only(top: 10)),
-            Text(
-              _notesForDisplay[index].username,
-              style: TextStyle(color: Colors.grey.shade600),
-            ),
-          ],
+        padding: const EdgeInsets.all(8.0),
+        child: ListTile(
+          leading: FlutterLogo(size: 56.0),
+          title: Text('Two-line ListTile'),
+          subtitle: Text(_notesForDisplay[index].username),
+          onTap: (){
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Page()),
+            );
+          },
         ),
       ),
     );
   }
 }
+
+class Page extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Titulo'),
+      ),
+    );
+  }
+}
+
+
+
+// Card(
+// child: Padding(
+// padding: const EdgeInsets.only(
+// top: 10.0, bottom: 15.0, left: 16.0, right: 16.0),
+// child: Column(
+// crossAxisAlignment: CrossAxisAlignment.start,
+// children: <Widget>[
+// Text(
+// _notesForDisplay[index].name,
+// style: TextStyle(
+// fontSize: 19,
+// fontWeight: FontWeight.bold,
+// color: Colors.grey.shade700),
+// ),
+// Padding(padding: EdgeInsets.only(top: 10)),
+// Text(
+// _notesForDisplay[index].username,
+// style: TextStyle(color: Colors.grey.shade600),
+// ),
+// ],
+// ),
+// ),
+// );

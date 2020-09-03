@@ -137,66 +137,106 @@
   },
   {
     "name": "35 - Borrado de una cookie",
-    "username": ""
+    "username": "Para borrar una cookie se debe llamar a la función setcookie"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "36 - Cookie de sesión",
+    "username": "Para crear una cookie que sólo tenga existencia mientras"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "37 - Variables de sesión ($_SESSION)",
+    "username": "Es otro método para hacer que variables estén disponibles"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "38 - Incluir un archivo externo (require_once)",
+    "username": "Hasta ahora hemos visto que un archivo contiene todo el código"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "39 - Redireccionar a otra página (header)",
+    "username": "Con PHP se puede implementar un pequeño programa"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "40 - Creación de imágenes dinámicas desde PHP",
+    "username": "Existe un conjunto de funciones que nos permite la creación"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "41 - Agregar imágenes dinámicas en un archivo HTML",
+    "username": "En un concepto anterior habíamos visto como crear un archivo gráfico"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "42 - Administración de fechas y horas (función date)",
+    "username": "La función date retorna un string con una fecha y hora"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "43 - Validación de una fecha ingresada por teclado (checkdate)",
+    "username": "Si disponemos en forma separada del día, mes y año hay"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "44 - Carga de una fecha en una tabla de MySQL",
+    "username": "Agregar a la tabla alumnos un campo llamado \"fechanac\""
   },
   {
-    "name": "",
-    "username": ""
+    "name": "45 - Formateo de datos en una página (printf)",
+    "username": "Hasta ahora siempre hemos impreso dentro de la página"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "46 - Formateo de datos y salida a un string (sprintf)",
+    "username": "Así como vimos que la función printf nos permite tener"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "47 - mysqli - POO (Programación Orientada a Objetos)",
+    "username": "En conceptos anteriores vimos un conjunto de funciones para el acceso"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "48 - mysqli (POO) - alta tabla rubros",
+    "username": "Implementaremos el alta de la tabla rubros utilizando la interfaz"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "49 - mysqli (POO) - listado tabla rubros",
+    "username": "Para recuperar datos de tablas disponemos de una clase"
   },
   {
-    "name": "",
-    "username": ""
+    "name": "50 - mysqli (POO) - consulta tabla rubros",
+    "username": "Para consultar registros de una tabla debemos utilizar"
+  },
+  {
+    "name": "51 - mysqli (POO) - borrado de un registro de la tabla rubros",
+    "username": "Para el borrado debemos primero localizar el registro a borrar"
+  },
+  {
+    "name": "52 - mysqli (POO) - modificación de un registro de la tabla rubros",
+    "username": "Procederemos ahora a implementar el algoritmo para modificar"
+  },
+  {
+    "name": "53 - mysqli (POO) - alta tabla articulos",
+    "username": "Ahora tenemos que implementar el alta en la tabla articulos"
+  },
+  {
+    "name": "54 - mysqli (POO) - listado tabla articulos",
+    "username": "Ahora implementaremos el listado completo de la tabla"
+  },
+  {
+    "name": "55 - mysqli (POO) - consulta tabla articulos",
+    "username": "Implementaremos el algoritmo para recuperar los datos"
+  },
+  {
+    "name": "56 - mysqli (POO) - borrado de un registro de la tabla articulos",
+    "username": "Para borrar un artículo debemos implementar un formulario"
+  },
+  {
+    "name": "57 - mysqli (POO) - modificación de un registro de la tabla articulos",
+    "username": "Para modificar los datos de un artículo implementaremos"
+  },
+  {
+    "name": "58 - mysqli (POO) - panel para ABM de la tabla articulos",
+    "username": "Ahora implementaremos una serie de páginas para administrar"
+  },
+  {
+    "name": "59 - mysqli (POO) - propiedad: affected_rows",
+    "username": "La propiedad affected_rows almacena la cantidad de filas"
+  },
+  {
+    "name": "60 - mysqli (POO) - propiedad: insert_id",
+    "username": "Otra propiedad de amplio uso es insert_id, la misma"
   }
 ]
