@@ -3,13 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:search/note.dart';
 import 'package:search/page.dart';
-import 'package:search/pagina.dart';
 
 void main() {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-      '/page': (context) => Pagina(ModalRoute.of(context).settings.arguments),
+      '/page': (context) => Pagina(ModalRoute.of(context).settings.arguments, ModalRoute.of(context).settings.arguments),
     },
     debugShowCheckedModeBanner: false,
     home: Scaffold(
@@ -92,18 +91,10 @@ class _HomePageState extends State<HomePage> {
           subtitle: Text(_notesForDisplay[index].username),
           onTap: () {
             Navigator.pushNamed(context, '/page',
-                arguments: ScreenArguments(_notesForDisplay[index].id,_notesForDisplay[index].name)
-            );
+                arguments: {_notesForDisplay[index].id,_notesForDisplay[index].name});
           },
         ),
       ),
     );
   }
-}
-
-class ScreenArguments {
-  final String id;
-  final String title;
-
-  ScreenArguments(this.id, this.title);
 }
