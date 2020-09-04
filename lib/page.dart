@@ -4,14 +4,14 @@ import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart
 
 class Pagina extends StatelessWidget {
   final String num;
-
-  Pagina(this.num);
+  final String title;
+  Pagina(this.num, this.title);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Titulo'),
+          title: Text(title),
         ),
         body: FutureBuilder(
             future: DefaultAssetBundle.of(context)

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:search/note.dart';
 import 'package:search/page.dart';
+import 'package:search/pagina.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -26,7 +27,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   List<Note> _notes = List<Note>();
   List<Note> _notesForDisplay = List<Note>();
 
@@ -91,10 +91,19 @@ class _HomePageState extends State<HomePage> {
           title: Text(_notesForDisplay[index].name),
           subtitle: Text(_notesForDisplay[index].username),
           onTap: () {
-            Navigator.pushNamed(context, '/page', arguments: _notesForDisplay[index].id);
+            Navigator.pushNamed(context, '/page',
+                arguments: ScreenArguments(_notesForDisplay[index].id,_notesForDisplay[index].name)
+            );
           },
         ),
       ),
     );
   }
+}
+
+class ScreenArguments {
+  final String id;
+  final String title;
+
+  ScreenArguments(this.id, this.title);
 }
