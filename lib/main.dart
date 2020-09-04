@@ -91,34 +91,10 @@ class _HomePageState extends State<HomePage> {
           title: Text(_notesForDisplay[index].name),
           subtitle: Text(_notesForDisplay[index].username),
           onTap: () {
-            Navigator.pushNamed(context, '/page', arguments: '1');
+            Navigator.pushNamed(context, '/page', arguments: _notesForDisplay[index].id);
           },
         ),
       ),
     );
   }
 }
-
-// Card(
-// child: Padding(
-// padding: const EdgeInsets.only(
-// top: 10.0, bottom: 15.0, left: 16.0, right: 16.0),
-// child: Column(
-// crossAxisAlignment: CrossAxisAlignment.start,
-// children: <Widget>[
-// Text(
-// _notesForDisplay[index].name,
-// style: TextStyle(
-// fontSize: 19,
-// fontWeight: FontWeight.bold,
-// color: Colors.grey.shade700),
-// ),
-// Padding(padding: EdgeInsets.only(top: 10)),
-// Text(
-// _notesForDisplay[index].username,
-// style: TextStyle(color: Colors.grey.shade600),
-// ),
-// ],
-// ),
-// ),
-// );
