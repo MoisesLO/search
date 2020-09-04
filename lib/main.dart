@@ -2,10 +2,14 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:search/note.dart';
-import 'package:http/http.dart' as http;
+import 'package:search/page.dart';
 
 void main() {
   runApp(MaterialApp(
+    initialRoute: '/',
+    routes: {
+      '/page': (context) => Pagina(ModalRoute.of(context).settings.arguments),
+    },
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
@@ -22,6 +26,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
   List<Note> _notes = List<Note>();
   List<Note> _notesForDisplay = List<Note>();
 
@@ -79,33 +84,20 @@ class _HomePageState extends State<HomePage> {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListTile(
-          leading: FlutterLogo(size: 56.0),
-          title: Text('Two-line ListTile'),
+          leading: CircleAvatar(
+            radius: 30.0,
+            backgroundImage: AssetImage("assets/json/logo1.png"),
+          ),
+          title: Text(_notesForDisplay[index].name),
           subtitle: Text(_notesForDisplay[index].username),
-          onTap: (){
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Page()),
-            );
+          onTap: () {
+            Navigator.pushNamed(context, '/page', arguments: '1');
           },
         ),
       ),
     );
   }
 }
-
-class Page extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Titulo'),
-      ),
-    );
-  }
-}
-
-
 
 // Card(
 // child: Padding(
