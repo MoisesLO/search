@@ -1,302 +1,302 @@
 [
   {
     "id": "1",
-    "name": "1 - ¿Qué es PHP?",
-    "username": "PHP (acrónimo de \"PHP: Hypertext Preprocessor\") es ..."
+    "title": "1 - ¿Qué es PHP?",
+    "subtitle": "PHP (acrónimo de \"PHP: Hypertext Preprocessor\") es ..."
   },
   {
     "id": "2",
-    "name": "2 - Instalación del entorno XAMPP",
-    "username": "Actualmente XAMPP es el entorno más popular de desar ..."
+    "title": "2 - Instalación del entorno XAMPP",
+    "subtitle": "Actualmente XAMPP es el entorno más popular de desar ..."
   },
   {
     "id": "3",
-    "name": "3 - Programa \"Hola Mundo\" en PHP",
-    "username": "En este curso suponemos que conoce los elementos pri ..."
+    "title": "3 - Programa \"Hola Mundo\" en PHP",
+    "subtitle": "En este curso suponemos que conoce los elementos pri ..."
   },
   {
     "id": "4",
-    "name": "4 - Un programita más útil que \"Hola Mundo\"",
-    "username": "Un problema sencillo que se nos puede presentar ..."
+    "title": "4 - Un programita más útil que \"Hola Mundo\"",
+    "subtitle": "Un problema sencillo que se nos puede presentar ..."
   },
   {
     "id": "5",
-    "name": "5 - Tipos de variables",
-    "username": "Los nombres de variables comienzan con el caracter $ ..."
+    "title": "5 - Tipos de variables",
+    "subtitle": "Los nombres de variables comienzan con el caracter $ ..."
   },
   {
     "id": "6",
-    "name": "6 - Variables de tipo string",
-    "username": "Una variable de este tipo puede almacenar una serie ..."
+    "title": "6 - Variables de tipo string",
+    "subtitle": "Una variable de este tipo puede almacenar una serie ..."
   },
   {
     "id": "7",
-    "name": "7 - Estructura condicional (if)",
-    "username": "Una variable de este tipo puede almacenar una serie ..."
+    "title": "7 - Estructura condicional (if)",
+    "subtitle": "Una variable de este tipo puede almacenar una serie ..."
   },
   {
     "id": "8",
-    "name": "8 - Estructuras repetitivas (for - while - do/while)",
-    "username": "Las estructuras repetitivas son similares al lenguaje C .."
+    "title": "8 - Estructuras repetitivas (for - while - do/while)",
+    "subtitle": "Las estructuras repetitivas son similares al lenguaje C .."
   },
   {
     "id": "9",
-    "name": "9 - Envío de datos de un FORMULARIO (controles text y submit)",
-    "username": "Una actividad fundamental en PHP es la recolección de datos ..."
+    "title": "9 - Envío de datos de un FORMULARIO (controles text y submit)",
+    "subtitle": "Una actividad fundamental en PHP es la recolección de datos ..."
   },
   {
     "id": "10",
-    "name": "10 - FORMULARIO (control radio)",
-    "username": "Una actividad fundamental en PHP es la recolección de datos ..."
+    "title": "10 - FORMULARIO (control radio)",
+    "subtitle": "Una actividad fundamental en PHP es la recolección de datos ..."
   },
   {
     "id": "11",
-    "name": "11 - FORMULARIO (control checkbox)",
-    "username": "El control checkbox tiene dos estados: seleccionado ..."
+    "title": "11 - FORMULARIO (control checkbox)",
+    "subtitle": "El control checkbox tiene dos estados: seleccionado ..."
   },
   {
     "id": "12",
-    "name": "12 - FORMULARIO (control select)",
-    "username": "Veamos ahora como podemos rescatar desde PHP el elemento ..."
+    "title": "12 - FORMULARIO (control select)",
+    "subtitle": "Veamos ahora como podemos rescatar desde PHP el elemento ..."
   },
   {
     "id": "13",
-    "name": "13 - FORMULARIO (control textarea)",
-    "username": "El control HTML \"textarea\" se diferencia del \"text\" en que ..."
+    "title": "13 - FORMULARIO (control textarea)",
+    "subtitle": "El control HTML \"textarea\" se diferencia del \"text\" en que ..."
   },
   {
     "id": "14",
-    "name": "14 - Vectores (tradicionales)",
-    "username": "Un Array es una colección de valores. Los array pueden ..."
+    "title": "14 - Vectores (tradicionales)",
+    "subtitle": "Un Array es una colección de valores. Los array pueden ..."
   },
   {
     "id": "15",
-    "name": "15 - Creación de un archivo de texto",
-    "username": "Una actividad fundamental es poder registrar información ..."
+    "title": "15 - Creación de un archivo de texto",
+    "subtitle": "Una actividad fundamental es poder registrar información ..."
   },
   {
     "id": "16",
-    "name": "16 - Lectura de un archivo de texto",
-    "username": "Para la lectura de un archivo de texto contamos ..."
+    "title": "16 - Lectura de un archivo de texto",
+    "subtitle": "Para la lectura de un archivo de texto contamos ..."
   },
   {
     "id": "17",
-    "name": "17 - Vectores (asociativos)",
-    "username": "Este tipo de vectores no es común a otros lenguajes ..."
+    "title": "17 - Vectores (asociativos)",
+    "subtitle": "Este tipo de vectores no es común a otros lenguajes ..."
   },
   {
     "id": "18",
-    "name": "18 - Funciones en PHP",
-    "username": "La sintaxis para la definición de una función en PHP es ..."
+    "title": "18 - Funciones en PHP",
+    "subtitle": "La sintaxis para la definición de una función en PHP es ..."
   },
   {
     "id": "19",
-    "name": "19 - Base de datos (MySQL)",
-    "username": "Uno de los empleos principales de PHP es el acceso a una base de datos ..."
+    "title": "19 - Base de datos (MySQL)",
+    "subtitle": "Uno de los empleos principales de PHP es el acceso a una base de datos ..."
   },
   {
     "id": "20",
-    "name": "20 - INSERT (Alta de registros en una tabla)",
-    "username": "20 - INSERT (Alta de registros en una tabla) ..."
+    "title": "20 - INSERT (Alta de registros en una tabla)",
+    "subtitle": "20 - INSERT (Alta de registros en una tabla) ..."
   },
   {
     "id": "21",
-    "name": "21 - Listado (selección de registros de una tabla)",
-    "username": "Para recuperar datos desde MySQL o MariaDB debemos ..."
+    "title": "21 - Listado (selección de registros de una tabla)",
+    "subtitle": "Para recuperar datos desde MySQL o MariaDB debemos ..."
   },
   {
     "id": "22",
-    "name": "22 - Consulta (selección de registros de una tabla)",
-    "username": "El proceso de consulta de datos de una tabla es similar al de listado ..."
+    "title": "22 - Consulta (selección de registros de una tabla)",
+    "subtitle": "El proceso de consulta de datos de una tabla es similar al de listado ..."
   },
   {
     "id": "23",
-    "name": "23 - DELETE (Baja de un registro en una tabla)",
-    "username": "El objetivo de este punto es el borrado de un registro de una tabla ..."
+    "title": "23 - DELETE (Baja de un registro en una tabla)",
+    "subtitle": "El objetivo de este punto es el borrado de un registro de una tabla ..."
   },
   {
     "id": "24",
-    "name": "24 - DELETE (Baja de todos los registros de una tabla)",
-    "username": "Vimos en el concepto anterior que podemos borrar una ..."
+    "title": "24 - DELETE (Baja de todos los registros de una tabla)",
+    "subtitle": "Vimos en el concepto anterior que podemos borrar una ..."
   },
   {
     "id": "25",
-    "name": "25 - UPDATE (Modificación de un registro de una tabla)",
-    "username": "De las actividades con una tabla esta es la más larga ..."
+    "title": "25 - UPDATE (Modificación de un registro de una tabla)",
+    "subtitle": "De las actividades con una tabla esta es la más larga ..."
   },
   {
     "id": "26",
-    "name": "26 - INSERT (y consulta de otra tabla)",
-    "username": "En un primer paso vimos como efectuar el alta en la tabla alumnos ..."
+    "title": "26 - INSERT (y consulta de otra tabla)",
+    "subtitle": "En un primer paso vimos como efectuar el alta en la tabla alumnos ..."
   },
   {
     "id": "27",
-    "name": "27 - Listado (selección de registros de varias tablas - INNER JOIN)",
-    "username": "Ahora veremos como imprimir todos los alumnos inscriptos a los cursos ..."
+    "title": "27 - Listado (selección de registros de varias tablas - INNER JOIN)",
+    "subtitle": "Ahora veremos como imprimir todos los alumnos inscriptos a los cursos ..."
   },
   {
     "id": "28",
-    "name": "28 - Función count de SQL",
-    "username": "Hay en MySQL funciones que nos permiten contar registros ..."
+    "title": "28 - Función count de SQL",
+    "subtitle": "Hay en MySQL funciones que nos permiten contar registros ..."
   },
   {
     "id": "29",
-    "name": "29 - UPDATE (Modificación de un registro trabajando con dos tablas)",
-    "username": "Ahora complicaremos un poco la modificación de un registro ..."
+    "title": "29 - UPDATE (Modificación de un registro trabajando con dos tablas)",
+    "subtitle": "Ahora complicaremos un poco la modificación de un registro ..."
   },
   {
     "id": "30",
-    "name": "30 - Cláusula Group By de SQL",
-    "username": "Entre las muchas posibilidades que nos brinda SQL ..."
+    "title": "30 - Cláusula Group By de SQL",
+    "subtitle": "Entre las muchas posibilidades que nos brinda SQL ..."
   },
   {
     "id": "31",
-    "name": "31 - Parámetros en un hipervínculo",
-    "username": "Hasta ahora hemos visto como enviar datos de una página ..."
+    "title": "31 - Parámetros en un hipervínculo",
+    "subtitle": "Hasta ahora hemos visto como enviar datos de una página ..."
   },
   {
     "id": "32",
-    "name": "32 - Paginación de registros",
-    "username": "En situaciones en las cuales una consulta retorna ..."
+    "title": "32 - Paginación de registros",
+    "subtitle": "En situaciones en las cuales una consulta retorna ..."
   },
   {
     "id": "33",
-    "name": "33 - Subir un archivo al servidor (Upload)",
-    "username": "Una actividad común en un sitio es poder almacenar ..."
+    "title": "33 - Subir un archivo al servidor (Upload)",
+    "subtitle": "Una actividad común en un sitio es poder almacenar ..."
   },
   {
     "id": "34",
-    "name": "34 - Creación y lectura de una cookie",
-    "username": "El protocolo HTTP es desconectado. Esto significa"
+    "title": "34 - Creación y lectura de una cookie",
+    "subtitle": "El protocolo HTTP es desconectado. Esto significa"
   },
   {
     "id": "35",
-    "name": "35 - Borrado de una cookie",
-    "username": "Para borrar una cookie se debe llamar a la función setcookie"
+    "title": "35 - Borrado de una cookie",
+    "subtitle": "Para borrar una cookie se debe llamar a la función setcookie"
   },
   {
     "id": "36",
-    "name": "36 - Cookie de sesión",
-    "username": "Para crear una cookie que sólo tenga existencia mientras"
+    "title": "36 - Cookie de sesión",
+    "subtitle": "Para crear una cookie que sólo tenga existencia mientras"
   },
   {
     "id": "37",
-    "name": "37 - Variables de sesión ($_SESSION)",
-    "username": "Es otro método para hacer que variables estén disponibles"
+    "title": "37 - Variables de sesión ($_SESSION)",
+    "subtitle": "Es otro método para hacer que variables estén disponibles"
   },
   {
     "id": "38",
-    "name": "38 - Incluir un archivo externo (require_once)",
-    "username": "Hasta ahora hemos visto que un archivo contiene todo el código"
+    "title": "38 - Incluir un archivo externo (require_once)",
+    "subtitle": "Hasta ahora hemos visto que un archivo contiene todo el código"
   },
   {
     "id": "39",
-    "name": "39 - Redireccionar a otra página (header)",
-    "username": "Con PHP se puede implementar un pequeño programa"
+    "title": "39 - Redireccionar a otra página (header)",
+    "subtitle": "Con PHP se puede implementar un pequeño programa"
   },
   {
     "id": "40",
-    "name": "40 - Creación de imágenes dinámicas desde PHP",
-    "username": "Existe un conjunto de funciones que nos permite la creación"
+    "title": "40 - Creación de imágenes dinámicas desde PHP",
+    "subtitle": "Existe un conjunto de funciones que nos permite la creación"
   },
   {
     "id": "41",
-    "name": "41 - Agregar imágenes dinámicas en un archivo HTML",
-    "username": "En un concepto anterior habíamos visto como crear un archivo gráfico"
+    "title": "41 - Agregar imágenes dinámicas en un archivo HTML",
+    "subtitle": "En un concepto anterior habíamos visto como crear un archivo gráfico"
   },
   {
     "id": "42",
-    "name": "42 - Administración de fechas y horas (función date)",
-    "username": "La función date retorna un string con una fecha y hora"
+    "title": "42 - Administración de fechas y horas (función date)",
+    "subtitle": "La función date retorna un string con una fecha y hora"
   },
   {
     "id": "43",
-    "name": "43 - Validación de una fecha ingresada por teclado (checkdate)",
-    "username": "Si disponemos en forma separada del día, mes y año hay"
+    "title": "43 - Validación de una fecha ingresada por teclado (checkdate)",
+    "subtitle": "Si disponemos en forma separada del día, mes y año hay"
   },
   {
     "id": "44",
-    "name": "44 - Carga de una fecha en una tabla de MySQL",
-    "username": "Agregar a la tabla alumnos un campo llamado \"fechanac\""
+    "title": "44 - Carga de una fecha en una tabla de MySQL",
+    "subtitle": "Agregar a la tabla alumnos un campo llamado \"fechanac\""
   },
   {
     "id": "45",
-    "name": "45 - Formateo de datos en una página (printf)",
-    "username": "Hasta ahora siempre hemos impreso dentro de la página"
+    "title": "45 - Formateo de datos en una página (printf)",
+    "subtitle": "Hasta ahora siempre hemos impreso dentro de la página"
   },
   {
     "id": "46",
-    "name": "46 - Formateo de datos y salida a un string (sprintf)",
-    "username": "Así como vimos que la función printf nos permite tener"
+    "title": "46 - Formateo de datos y salida a un string (sprintf)",
+    "subtitle": "Así como vimos que la función printf nos permite tener"
   },
   {
     "id": "47",
-    "name": "47 - mysqli - POO (Programación Orientada a Objetos)",
-    "username": "En conceptos anteriores vimos un conjunto de funciones para el acceso"
+    "title": "47 - mysqli - POO (Programación Orientada a Objetos)",
+    "subtitle": "En conceptos anteriores vimos un conjunto de funciones para el acceso"
   },
   {
     "id": "48",
-    "name": "48 - mysqli (POO) - alta tabla rubros",
-    "username": "Implementaremos el alta de la tabla rubros utilizando la interfaz"
+    "title": "48 - mysqli (POO) - alta tabla rubros",
+    "subtitle": "Implementaremos el alta de la tabla rubros utilizando la interfaz"
   },
   {
     "id": "49",
-    "name": "49 - mysqli (POO) - listado tabla rubros",
-    "username": "Para recuperar datos de tablas disponemos de una clase"
+    "title": "49 - mysqli (POO) - listado tabla rubros",
+    "subtitle": "Para recuperar datos de tablas disponemos de una clase"
   },
   {
     "id": "50",
-    "name": "50 - mysqli (POO) - consulta tabla rubros",
-    "username": "Para consultar registros de una tabla debemos utilizar"
+    "title": "50 - mysqli (POO) - consulta tabla rubros",
+    "subtitle": "Para consultar registros de una tabla debemos utilizar"
   },
   {
     "id": "51",
-    "name": "51 - mysqli (POO) - borrado de un registro de la tabla rubros",
-    "username": "Para el borrado debemos primero localizar el registro a borrar"
+    "title": "51 - mysqli (POO) - borrado de un registro de la tabla rubros",
+    "subtitle": "Para el borrado debemos primero localizar el registro a borrar"
   },
   {
     "id": "52",
-    "name": "52 - mysqli (POO) - modificación de un registro de la tabla rubros",
-    "username": "Procederemos ahora a implementar el algoritmo para modificar"
+    "title": "52 - mysqli (POO) - modificación de un registro de la tabla rubros",
+    "subtitle": "Procederemos ahora a implementar el algoritmo para modificar"
   },
   {
     "id": "53",
-    "name": "53 - mysqli (POO) - alta tabla articulos",
-    "username": "Ahora tenemos que implementar el alta en la tabla articulos"
+    "title": "53 - mysqli (POO) - alta tabla articulos",
+    "subtitle": "Ahora tenemos que implementar el alta en la tabla articulos"
   },
   {
     "id": "54",
-    "name": "54 - mysqli (POO) - listado tabla articulos",
-    "username": "Ahora implementaremos el listado completo de la tabla"
+    "title": "54 - mysqli (POO) - listado tabla articulos",
+    "subtitle": "Ahora implementaremos el listado completo de la tabla"
   },
   {
     "id": "55",
-    "name": "55 - mysqli (POO) - consulta tabla articulos",
-    "username": "Implementaremos el algoritmo para recuperar los datos"
+    "title": "55 - mysqli (POO) - consulta tabla articulos",
+    "subtitle": "Implementaremos el algoritmo para recuperar los datos"
   },
   {
     "id": "56",
-    "name": "56 - mysqli (POO) - borrado de un registro de la tabla articulos",
-    "username": "Para borrar un artículo debemos implementar un formulario"
+    "title": "56 - mysqli (POO) - borrado de un registro de la tabla articulos",
+    "subtitle": "Para borrar un artículo debemos implementar un formulario"
   },
   {
     "id": "57",
-    "name": "57 - mysqli (POO) - modificación de un registro de la tabla articulos",
-    "username": "Para modificar los datos de un artículo implementaremos"
+    "title": "57 - mysqli (POO) - modificación de un registro de la tabla articulos",
+    "subtitle": "Para modificar los datos de un artículo implementaremos"
   },
   {
     "id": "58",
-    "name": "58 - mysqli (POO) - panel para ABM de la tabla articulos",
-    "username": "Ahora implementaremos una serie de páginas para administrar"
+    "title": "58 - mysqli (POO) - panel para ABM de la tabla articulos",
+    "subtitle": "Ahora implementaremos una serie de páginas para administrar"
   },
   {
     "id": "59",
-    "name": "59 - mysqli (POO) - propiedad: affected_rows",
-    "username": "La propiedad affected_rows almacena la cantidad de filas"
+    "title": "59 - mysqli (POO) - propiedad: affected_rows",
+    "subtitle": "La propiedad affected_rows almacena la cantidad de filas"
   },
   {
     "id": "60",
-    "name": "60 - mysqli (POO) - propiedad: insert_id",
-    "username": "Otra propiedad de amplio uso es insert_id, la misma"
+    "title": "60 - mysqli (POO) - propiedad: insert_id",
+    "subtitle": "Otra propiedad de amplio uso es insert_id, la misma"
   }
 ]

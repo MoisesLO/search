@@ -2,13 +2,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:search/note.dart';
-import 'package:search/page.dart';
+import 'package:search/pagina.dart';
 
 void main() {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-      '/page': (context) => Pagina(ModalRoute.of(context).settings.arguments),
+      '/page': (context) => Pagina(ModalRoute.of(context).settings.arguments,ModalRoute.of(context).settings.arguments)
     },
     debugShowCheckedModeBanner: false,
     home: Scaffold(
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
           text = text.toLowerCase();
           setState(() {
             _notesForDisplay = _notes.where((note) {
-              var noteTitle = note.name.toLowerCase();
+              var noteTitle = note.title.toLowerCase();
               return noteTitle.contains(text);
             }).toList();
           });
@@ -88,13 +88,20 @@ class _HomePageState extends State<HomePage> {
             radius: 30.0,
             backgroundImage: AssetImage("assets/json/logo1.png"),
           ),
-          title: Text(_notesForDisplay[index].name),
-          subtitle: Text(_notesForDisplay[index].username),
+          title: Text(_notesForDisplay[index].title),
+          subtitle: Text(_notesForDisplay[index].subtitle),
           onTap: () {
-            Navigator.pushNamed(context, '/page', arguments: _notesForDisplay[index].id);
+            Navigator.pushNamed(context, '/page', arguments: PaginaArguments(_notesForDisplay[index].id, _notesForDisplay[index].title));
           },
         ),
       ),
     );
   }
+}
+
+class PaginaArguments {
+  final String id;
+  final String title;
+
+  PaginaArguments(this.id, this.title);
 }

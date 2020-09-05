@@ -1,13 +1,13 @@
 class Note {
   String id;
-  String name;
-  String username;
+  String title;
+  String subtitle;
 
-  Note(this.id, this.name, this.username);
+  Note(this.id, this.title, this.subtitle);
 
   Note.fromJson(Map<String, dynamic> json) {
     id = json['id'];
-    name = json['name'];
-    username = json['username'];
+    title = json['title'];
+    subtitle = json['subtitle'];
   }
 }
