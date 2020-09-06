@@ -8,7 +8,10 @@ void main() {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-      '/page': (context) => Pagina('1','titulo2')
+      '/page': (context) {
+        final PaginaArguments args = ModalRoute.of(context).settings.arguments;
+        return Pagina(args.id,args.title);
+      },
     },
     debugShowCheckedModeBanner: false,
     home: Scaffold(
@@ -85,7 +88,7 @@ class _HomePageState extends State<HomePage> {
         child: ListTile(
           leading: CircleAvatar(
             radius: 30.0,
-            backgroundImage: AssetImage("assets/json/logo1.png"),
+            backgroundImage: AssetImage("assets/img/logo.png"),
           ),
           title: Text(_notesForDisplay[index].title),
           subtitle: Text(_notesForDisplay[index].subtitle),
