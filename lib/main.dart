@@ -8,7 +8,7 @@ void main() {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-      '/page': (context) => Pagina(ModalRoute.of(context).settings.arguments,ModalRoute.of(context).settings.arguments)
+      '/page': (context) => Pagina('1','titulo2')
     },
     debugShowCheckedModeBanner: false,
     home: Scaffold(
