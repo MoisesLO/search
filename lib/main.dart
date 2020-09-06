@@ -26,7 +26,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   List<Note> _notes = List<Note>();
   List<Note> _notesForDisplay = List<Note>();
 
